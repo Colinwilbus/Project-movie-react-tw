@@ -1,0 +1,9 @@
+.showCinema {
+  @apply flex items-center -mx-4 overflow-x-auto overflow-y-hidden  flex-nowrap;
+  .showCinema_item {
+    @apply flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b;
+  }
+  .showCinema_item_active {
+    @apply border border-b-0 rounded-t-lg;
+  }
+}
